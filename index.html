@@ -6,67 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebTech - Raphael Tony, Model 3</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body id="top">
     <header>
-      <div>
-        <div><img src="assets/Logo.png" alt="logo" /></div>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Properties</a>
-          <a href="#">News</a>
-          <a href="#">Contact Us</a>
-        </nav>
-        <div>
-          <img src="" alt="phone sign" />
-          <p>+1-456-657-887</p>
-        </div>
-      </div>
+      <img src="assets/Logo.png" alt="logo" />
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Properties</a>
+        <a href="#">News</a>
+        <a href="#">Contact Us</a>
+        <span>
+          <img src="assets/icons/telephone.png" alt="phone sign" />
+          <span>+1-456-657-887</span>
+        </span>
+      </nav>
     </header>
+
     <main>
-      <section>
+      <section class="cover">
         <div>
           <h2>Luxury Real Estate</h2>
-          <div>
-            <p>IT'S TIME TO FIND YOUR LUXURY HOME</p>
+
+          <h3>
+            IT'S TIME TO <br />
+            FIND YOUR <br />
+            LUXURY HOME
+          </h3>
+
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum
+            doloribus quis sed facilis,
+          </p>
+          <div class="pinkButton">
+            <a href="#">Explore Our Properties</a>
           </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-              harum doloribus quis sed facilis,
-            </p>
-          </div>
-          <a class="pinkButton" href="#">Explore Our Properties</a>
         </div>
-        <div><img src="assets/Hero.png" alt="building pic" /></div>
+        <img src="assets/Hero.png" alt="building pic" />
       </section>
 
-      <section>
-        <div>
-          <p>Let's Go On A Journey And Find Your Dream Home</p>
-        </div>
+      <section class="banner">
+        <h3>
+          Let's Go On A Journey And <br />
+          Find Your Dream Home
+        </h3>
+
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            exercitationem at dolorum maxime odio quos tenetur molestias
-            possimus molesti
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+            <p>Hic
+            exercitationem at dolorum maxime odio quos tenetur molestias possimus molesti</p>
+            
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, minus?</p>
           </p>
         </div>
       </section>
 
-      <section>
+      <section class="underbanner">
         <h2>Luxury At Its Best</h2>
         <h3>Featured Properties</h3>
         <div>
-          <p>
+          <p class="lorem">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste,
-            placeat vero. Veritatis, consequatur
           </p>
+          <p class="lorem">placeat vero. Veritatis, consequatur Lorem ipsum dolor, sit </p>
+          <p class="lorem">amet consectetur adipisicing elit. Vero, quo. Lorem, ipsum.</p>
         </div>
       </section>
 
-      <section>
+      <section class="first-grid">
         <div class="grid-container">
           <div class="grid-element">
             <img src="assets/Properties1.png" alt="piinkbrick pic" />
@@ -89,31 +104,36 @@
             <a href="#">Property Details</a>
           </div>
         </div>
-        <a class="pinkButton" href="#">Explore More</a>
+        <div class="pinkButton">
+          <a  href="#">Explore More</a>
+        </div>
+        
       </section>
 
-      <section>
+      <h2 style="padding-left: 2em;">Learn Our Story</h2>  
+      <section class="banner2">
+              
         <div>
-          <h2>Learn Our Story</h2>
+          
           <h3>
-            A Top Real Estate Agency Leading The Luxury Properties Marketing
+            A Top Real Estate Agency <br/>Leading The Luxury Properties <br/> Marketing
             Throughout The USA
           </h3>
         </div>
         <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-            dolor autem, ipsa dolore possimus laboriosam consequuntur? Cum
+          <p class="lorem">
+            Lorem ipsum dolor Lorem ipsum amet. sit, amet consectetur adipisicing elit. <br/>Mollitia
+            dolor autem, ipsa dolore possimus laboriosam Lorem ipsum dolor sit.<br/>consequuntur? Cum
             deleniti omnis fugit!
           </p>
 
           <div>
-            <a href="#" About Us></a>
-            <img src="" alt="arrow" />
+            <a href="#" >About Us</a>
+            <span>&rarr;</span>
           </div>
         </div>
       </section>
-
+<!-- 
       <section>
         <div class="float-grid">
           <div>
@@ -213,7 +233,7 @@
             <img src="assets/Testimonial-pic.png" alt="weird building" />
           </div>
           <div>
-            <!-- Slideshow + pink rectangle -->
+            
           </div>
         </div>
       </section>
@@ -262,52 +282,46 @@
           </form>
         </div>
       </section>
+ -->
     </main>
+
     <footer>
       <div>
         <img src="assets/Logo-Footer.png" alt="footer logo" />
-        <div>
+        
+        <div class="subdivs">
           <section>
             <h2>LUXURY REAL ESTATE</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              praesentium reiciendis, deserunt adipisci molestias temporibus ab
-              sapiente eius fuga in!
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Impedit
+              praesentium <br/>reiciendis, deserunt adipisci molestias ab
+              <br/>sapiente eius fuga in!
             </p>
             <div>
-              <p>Read More</p>
-              <img src="" alt="arrow" />
+              <a>Read More &rarr;</a>
             </div>
           </section>
 
           <section>
             <h2>CONTACT INFORMATION</h2>
-            <p>Phone : +1(456)1-456-657-887</p>
-            <p>Mail : info@realet.com</p>
-            <p>Address : 3557 Derek Drive, Orlando, Florida</p>
+            <p class="lorem">Phone : +1(456)1-456-657-887</p>
+            <p class="lorem">Mail : info@realet.com</p>
+            <p class="lorem">Address : 3557 Derek Drive, Orlando, Florida</p>
           </section>
 
-          <section>
+          <section >
             <h2>EXPLORE OUR PROPERTIES</h2>
-            <div>
-              <img src="assets/Properties1.png" alt="small pink brick" />
-              <div>
-                <h3>The Pink Brick Home</h3>
-                <a href="#">Property Info</a>
-              </div>
-            </div>
-            <div>
-              <img src="assets/Properties-2-1.png" alt="modern corner house" />
-              <div>
-                <h3>A Modern Corner House</h3>
-                <a href="#">Property Info</a>
-              </div>
-            </div>
+            <p class="lorem">
+              Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Impedit
+              praesentium <br/>reiciendis, deserunt adipisci molestias ab
+              <br/>sapiente eius fuga in!
+            </p>
+
           </section>
         </div>
       </div>
-      <div>
-        <!-- Pink Box + Arrow -->
+      <div class="pinkButton" id="goTop">
+        <a href="#top">&uarr;</a>
       </div>
     </footer>
   </body>

@@ -1,0 +1,222 @@
+:root {
+  --navy-blue: #011640;
+  --offwhite: #fff7f1;
+  --baby-pink: #ffd6d6;
+  --dark-grey: #807b7b;
+  --light-grey: #949191;
+}
+
+/* ------------------------------------------------------- */
+
+header {
+  background-color: var(--offwhite);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+header > img {
+  width: 7%;
+  height: fit-content;
+}
+
+header a {
+  color: var(--light-grey);
+  text-decoration: none;
+  padding-right: 2em;
+}
+
+header > nav > span {
+  background-color: var(--navy-blue);
+  color: white;
+  padding: 0.75em 0.9em 0.75em 0.9em;
+}
+
+header > nav > span {
+  display: inline-flex;
+}
+
+header > nav > span img {
+  width: 1.2em;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+.cover {
+  background-color: var(--offwhite);
+  display: flex;
+  justify-content: space-between;
+}
+.cover img {
+  width: 60%;
+}
+.cover div {
+  padding-left: 1em;
+}
+
+.cover > div h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.1em;
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------- */
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--navy-blue);
+  padding: 1.2em 1.5em 1.2em 1.5em;
+}
+
+.banner h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+
+.banner p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: var(--offwhite);
+  color: white;
+}
+
+/* ------------------------------------------------------------ */
+
+.underbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+/* ------------------------------------------------------- */
+.first-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  padding: 0em 10em 0em 10em;
+}
+
+.grid-element {
+  background-color: var(--offwhite);
+  margin: 1em;
+  padding-bottom: 1em;
+}
+
+.grid-element img {
+  width: 100%;
+}
+
+.grid-element p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+  color: var(--navy-blue);
+  padding: 0.75em 0 0 1.5em;
+}
+
+.grid-element a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75em;
+  text-decoration: none;
+  color: var(--light-grey);
+  padding: 0.75em 0 0.75em 1.5em;
+}
+/* -------------------------------------------------------- */
+.banner2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em 0 3em;
+  margin-bottom: 10em;
+}
+
+/* --------------------------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--navy-blue);
+}
+
+footer > div {
+  padding: 10em;
+}
+
+.subdivs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subdivs a {
+  color: rgb(226, 213, 213);
+}
+.subdivs p {
+  color: rgb(223, 211, 211);
+}
+
+.small-ad h3 {
+  color: white;
+}
+
+#goTop {
+  align-self: flex-end;
+  padding: 1em;
+}
+
+/* ---------------------------------------------------------- */
+
+a {
+  font-family: "Montserat", sans-serif;
+  color: var(--navy-blue);
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: var(--dark-grey);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: var(--navy-blue);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.lorem {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: var(--light-grey);
+}
+
+.pinkButton {
+  margin-top: 2em;
+}
+.pinkButton a {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--baby-pink);
+  color: var(--navy-blue);
+  text-decoration: none;
+  padding: 1em;
+}
